@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover how hospitals are achieving significant cost savings, elevating patient care, and empowering staff satisfaction through flexible staffing models.">
+    <meta name="keywords"
+        content="hospitals, patient satisfaction, turnover rates, retention, flexible staffing, labor cost savings">
+    <title>Unlocking the Power of Flexible Staffing: A Game-Changer for Your Organization</title>
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="homepage is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="header">
+
+			<!-- Inner -->
+			<div class="inner">
+				<header>
+					<img src="./images/logo.png" alt="Italian Trulli">
+					<hr />
+					<p>Unlocking the Power of Flexible Staffing: A Game-Changer for Your Organization</p>
+				</header>
+
+			</div>
+
+
+
+		</div>
+
+		<!-- Banner -->
+		<section id="banner">
+			<header>
+				<h2 class="h2custom">A Trifecta of Savings, Care, and Satisfaction</h2>
+			</header>
+		</section>
+
+
+		<!-- Main -->
+		<div class="wrapper style2">
+
+			<article id="main" class="container special">
+				<header>
+					<h2>Maximize Savings:</h2>
+					<p>
+						In 2024, hospitals are harnessing the potential of flexible staffing to achieve remarkable cost
+						savings. A recent survey by the American Hospital Association revealed that 67% of hospitals
+						have slashed labor costs by an average of 15% through flexible staffing models, all while
+						upholding top-notch patient care.
+					</p>
+				</header>
+			</article>
+
+		</div>
+
+		<div class="wrapper style1">
+
+			<article id="main" class="container special">
+				<header>
+					<h2>Elevate Patient Care:</h2>
+					<p>
+						The tide is turning as hospitals increasingly embrace flexible staffing to elevate the quality
+						of
+						patient care. Research published in the Journal of Nursing Administration paints a compelling
+						picture: hospitals with flexible staffing models witnessed a 20% drop in patient wait times and
+						a 15% surge in patient satisfaction scores, underscoring the profound positive impact of
+						flexible staffing on patient well-being.
+					</p>
+				</header>
+			</article>
+
+		</div>
+
+		<div class="wrapper style1">
+
+			<article id="main" class="container special">
+				<header>
+					<h2>Empower Staff Satisfaction:</h2>
+					<p>
+						Hospitals are embracing flexible staffing to empower their staff and combat burnout. A study by
+						the Healthcare Management Association uncovered a 25% decrease in staff turnover rates and a
+						striking 30% boost in overall staff morale in hospitals that have adopted flexible staffing,
+						signaling
+						a resounding victory for employee satisfaction and retention.
+					</p>
+				</header>
+			</article>
+
+		</div>
+<div class="container ">
+		<div class="cta ">
+            <button id="openFormBtn" class="center">Learn how MedCore Solutions can help solve your staffing needs</button>
+        </div>
+
+        <div class="form-container" id="contactForm">
+            <form id="form">
+                <input type="text" class="validate black-input" id="name" placeholder="Name (required)" required>
+                <input type="tel" class="validate black-input" id="phone" placeholder="Phone (required)" required>
+                <input type="email" class="validate black-input" id="email" placeholder="Email (required)" required>
+                <input type="text" class="validate black-input" id="facility"
+                    placeholder="Company, Hospital, or Facility Name (required)" required>
+                <textarea id="description"
+                    placeholder="Briefly give us a description of what staffing areas you need help with"
+                    rows="4"></textarea>
+                <button class="ctasubmit " type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="confirmation" id="confirmationMessage">
+            <p>Thanks for contacting us! We will get in touch with you within 2 business days. In the meantime, please
+                enjoy some of our helpful articles: <a href="https://medcoresolutions.com/articles/">link</a>.</p>
+        </div>
+
+	</div>
+		<!-- Footer -->
+		<div id="footer">
+
+			<!-- Contact -->
+			<section class="contact">
+
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+					</li>
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+				</ul>
+			</section>
+
+			<!-- Copyright -->
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; <span id="year"></span> MedCore Solutions. All rights reserved.</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+	</div>
+	</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+
+// Show the form when the button is clicked
+document.getElementById('openFormBtn').onclick = function () {
+            document.getElementById('contactForm').style.display = 'block'; // Show the form
+        };
+
+        // Handle form submission
+        document.getElementById('form').onsubmit = function (e) {
+            e.preventDefault(); // Prevent default form submission
+            document.getElementById('contactForm').style.display = 'none'; // Hide form
+            document.getElementById('confirmationMessage').style.display = 'block'; // Show confirmation message
+        };
+
+		document.getElementById('year').textContent = new Date().getFullYear();
+	  </script>
+
+</body>
+
+</html>
